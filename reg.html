@@ -34,15 +34,15 @@
     <form action="/reg-data" method="post" id="registrationForm">
     <div>
     <label for="name-input">Enter your name</label>
-    <input type="text" id="name-input" placeholder="Name" name="username"/>
+    <input type="text" id="name-input" placeholder="Name" name="username">
 </div>
 <div>
     <label for="password-input">Enter your password</label>
-    <input type="password" id="password-input" placeholder="Password" name="password"/>
+    <input type="password" id="password-input" placeholder="Password" name="password">
 </div>
 <div>
     <label for="date-input">Enter your date of birth</label>
-    <input type="date" id="date-input" name="birthdate"/>
+    <input type="date" id="date-input" name="birthdate">
 </div>
 <div>
     <label for="user-type-input">Select user type</label>
@@ -64,10 +64,6 @@
 
         darkModeButton.addEventListener('click', function() {
             document.body.classList.toggle('dark-mode');
-        });
-
-        form.addEventListener('submit', function(event) {
-            successMessage.style.display = 'block';
         });
     </script>
 </div>
